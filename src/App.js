@@ -40,7 +40,7 @@ export default function App() {
         <p>Search for your favorite animal in EmoZoo</p>
         <input onChange={emojiInputHandler}></input>
         <p>{emoji}</p>
-        <p>Checkout our lastest attraction at EmoZooo</p>
+        <p>Checkout our latest attraction at EmoZooo</p>
         {animalsInZoo.map((animal, index) => {
           return (
             <span
